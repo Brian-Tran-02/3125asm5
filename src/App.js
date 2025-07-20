@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import EnrolmentChart from "./data/components/EnrolmentChart";
+import FieldChart from "./data/components/FieldChart";
+import { translations } from "./i18n/translations";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [language, setLanguage] = useState("en");
+    const t = translations[language];
+
+    return (
+        <div className="App">
+            <h1>{t.title}</h1>
+
+            <div style={{ marginBottom: "20px", textAlign: "center" }}>
+                <label>{t.language}: </label>
+                <select value={language} onChange={(e) => setLanguage(e.target.value)}>
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+
+            <EnrolmentChart t={t} />
+            <FieldChart t={t} />
+        </div>
+    );
 }
 
 export default App;
