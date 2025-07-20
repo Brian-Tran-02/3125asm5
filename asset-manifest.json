@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Brian-Tran-02/3125asm5.git/static/css/main.508b63c1.css",
-    "main.js": "/Brian-Tran-02/3125asm5.git/static/js/main.906489eb.js",
-    "static/js/453.0966105b.chunk.js": "/Brian-Tran-02/3125asm5.git/static/js/453.0966105b.chunk.js",
-    "index.html": "/Brian-Tran-02/3125asm5.git/index.html",
-    "main.508b63c1.css.map": "/Brian-Tran-02/3125asm5.git/static/css/main.508b63c1.css.map",
-    "main.906489eb.js.map": "/Brian-Tran-02/3125asm5.git/static/js/main.906489eb.js.map",
-    "453.0966105b.chunk.js.map": "/Brian-Tran-02/3125asm5.git/static/js/453.0966105b.chunk.js.map"
+    "main.css": "/3125asm5/static/css/main.508b63c1.css",
+    "main.js": "/3125asm5/static/js/main.88d20bc5.js",
+    "static/js/453.0966105b.chunk.js": "/3125asm5/static/js/453.0966105b.chunk.js",
+    "index.html": "/3125asm5/index.html",
+    "main.508b63c1.css.map": "/3125asm5/static/css/main.508b63c1.css.map",
+    "main.88d20bc5.js.map": "/3125asm5/static/js/main.88d20bc5.js.map",
+    "453.0966105b.chunk.js.map": "/3125asm5/static/js/453.0966105b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.508b63c1.css",
-    "static/js/main.906489eb.js"
+    "static/js/main.88d20bc5.js"
   ]
 }
